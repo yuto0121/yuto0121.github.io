@@ -1,20 +1,11 @@
 /*----- 全体のスタイル -----*/
 body {
-    display: flex;
-    justify-content: center;
-    /* 横方向の中央揃え */
-    align-items: center;
-    /* 縦方向の中央揃え */
-    height: 100vh;
-    /* ビューポート全体の高さ */
+    height: 100%;
     margin: 0;
-    font-family: 'Montserrat', serif;
+    font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho";
     background-color: #000000;
-    /* 黒背景 */
     color: #ffffff;
-    /* 白文字 */
     text-align: center;
-    /* テキスト中央揃え */
 }
 
 /*----- ヘッダーと見出し -----*/
@@ -59,7 +50,6 @@ a:link {
 
 a:hover {
     color: #cccccc;
-    /* ホバー時の薄いグレー */
 }
 
 /*----- トップメニュー -----*/
@@ -68,15 +58,8 @@ a:hover {
 }
 
 #topmenu li {
-    float: left;
     list-style: none;
-    padding: 0px;
-    margin-bottom: 0px;
-    margin-left: 10px;
-    margin-top: 20px;
-    width: 91px;
-    height: 23px;
-    text-align: center;
+    margin: 10px;
     font-weight: bold;
     font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
 }
@@ -84,18 +67,14 @@ a:hover {
 #topmenu a {
     color: #999999;
     font-size: 0.8em;
-    padding-top: 3px;
     text-decoration: none;
 }
 
 #topmenu a:hover {
     color: #cccccc;
-    /* ホバー時の薄いグレー */
 }
 
 #topmenu {
-    width: 780px;
-    overflow: hidden;
     margin: auto;
 }
 
@@ -109,49 +88,26 @@ a:hover {
     width: 100%;
     margin: auto;
     background-color: #111111;
-    /* より濃い黒背景 */
 }
 
 #base {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    /* 縦横の中央揃え */
+    width: 100%;
     margin: auto;
     padding: 10px;
     text-align: center;
-    /* テキスト中央揃え */
 }
 
 #head {
-    width: 780px;
-    height: auto;
+    width: 100%;
     overflow: hidden;
     margin: auto;
     padding: 10px;
     text-align: center;
-    /* ヘッダー内のテキスト中央揃え */
-}
-
-#left {
-    width: 220px;
-    float: left;
-}
-
-#right {
-    float: left;
-    width: 780px;
-}
-
-#center {
-    float: left;
 }
 
 #foot {
     clear: both;
     background-color: #333333;
-    /* フッターのダークグレー背景 */
     color: #ffffff;
     text-align: center;
     font-size: 0.8em;
