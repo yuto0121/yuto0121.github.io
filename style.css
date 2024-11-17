@@ -10,12 +10,12 @@ body {
 
 /*----- ヘッダーと見出し -----*/
 h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 40px;
     border-bottom: solid 2px #ffffff;
     color: #ffffff;
     margin-bottom: 15px;
@@ -24,21 +24,21 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 35px;
     font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
 }
 
 /*----- リストのスタイル -----*/
 li {
-    margin: 15px;
+    margin: 18px;
     list-style-type: none;
     font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
-    font-size: 15px;
+    font-size: 18px;
     color: #ffffff;
     line-height: 1.8;
     padding-left: 10px;
@@ -114,4 +114,22 @@ a:hover {
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
+}
+
+/*----- 中央の線のみ表示するスタイル -----*/
+.center-line {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.center-line::before {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    /* 中央の線の長さ */
+    border-top: 1px solid #ffffff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
