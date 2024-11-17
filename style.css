@@ -36,10 +36,12 @@ h4 {
 /*----- リストのスタイル -----*/
 li {
     margin: 15px;
-    list-style-type: square;
+    list-style-type: none;
     font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
     font-size: 15px;
     color: #ffffff;
+    line-height: 1.8;
+    padding-left: 10px;
 }
 
 /*----- リンクのスタイル -----*/
