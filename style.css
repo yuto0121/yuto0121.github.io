@@ -2,7 +2,7 @@
 body {
     height: 100%;
     margin: 0;
-    font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho";
+    font-family: "Canela", "Hiragino Mincho Pro", "MS PMincho";
     background-color: #000000;
     color: #ffffff;
     text-align: center;
@@ -11,7 +11,7 @@ body {
 /*----- ヘッダーと見出し -----*/
 h1 {
     font-size: 44px;
-    font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
+    font-family: "Canela", "Hiragino Mincho Pro", "MS PMincho", serif;
 }
 
 h2 {
@@ -20,24 +20,24 @@ h2 {
     color: #ffffff;
     margin-bottom: 15px;
     margin-top: 30px;
-    font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
+    font-family: "Canela", "Hiragino Mincho Pro", "MS PMincho", serif;
 }
 
 h3 {
     font-size: 30px;
-    font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
+    font-family: "Canela", "Hiragino Mincho Pro", "MS PMincho", serif;
 }
 
 h4 {
     font-size: 25px;
-    font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
+    font-family: "Canela", "Hiragino Mincho Pro", "MS PMincho", serif;
 }
 
 /*----- リストのスタイル -----*/
 li {
     margin: 15px;
     list-style-type: none;
-    font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
+    font-family: "Canela", "Hiragino Mincho Pro", "MS PMincho", serif;
     font-size: 15px;
     color: #ffffff;
     line-height: 1.8;
@@ -63,7 +63,7 @@ a:hover {
     list-style: none;
     margin: 10px;
     font-weight: bold;
-    font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
+    font-family: "Canela", "Hiragino Mincho Pro", "MS PMincho", serif;
 }
 
 #topmenu a {
