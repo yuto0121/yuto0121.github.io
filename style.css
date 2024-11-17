@@ -1,14 +1,23 @@
-/*----- General Tag Styles -----*/
+/*----- 全体のスタイル -----*/
 body {
-    margin: 0px;
-    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    /* 横方向の中央揃え */
+    align-items: center;
+    /* 縦方向の中央揃え */
+    height: 100vh;
+    /* ビューポート全体の高さ */
+    margin: 0;
+    font-family: 'Montserrat', serif;
     background-color: #000000;
-    /* Black background */
+    /* 黒背景 */
     color: #ffffff;
-    /* White text */
+    /* 白文字 */
     text-align: center;
+    /* テキスト中央揃え */
 }
 
+/*----- ヘッダーと見出し -----*/
 h1 {
     font-size: 50px;
     font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
@@ -33,6 +42,7 @@ h4 {
     font-family: "Arial", "Hiragino Mincho Pro", "MS PMincho", serif;
 }
 
+/*----- リストのスタイル -----*/
 li {
     margin: 15px;
     list-style-type: square;
@@ -41,6 +51,7 @@ li {
     color: #ffffff;
 }
 
+/*----- リンクのスタイル -----*/
 a:link {
     color: #ffffff;
     text-decoration: none;
@@ -48,10 +59,10 @@ a:link {
 
 a:hover {
     color: #cccccc;
-    /* Light gray for hover */
+    /* ホバー時の薄いグレー */
 }
 
-/*----- Top Menu Styles -----*/
+/*----- トップメニュー -----*/
 #topmenu ul {
     padding: 0px;
 }
@@ -79,7 +90,7 @@ a:hover {
 
 #topmenu a:hover {
     color: #cccccc;
-    /* Light gray for hover */
+    /* ホバー時の薄いグレー */
 }
 
 #topmenu {
@@ -88,7 +99,7 @@ a:hover {
     margin: auto;
 }
 
-/*----- Layout Styles -----*/
+/*----- レイアウトの調整 -----*/
 #base_top {
     width: 100%;
     margin: auto;
@@ -98,14 +109,19 @@ a:hover {
     width: 100%;
     margin: auto;
     background-color: #111111;
-    /* Darker black for bottom background */
+    /* より濃い黒背景 */
 }
 
 #base {
-    width: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 縦横の中央揃え */
     margin: auto;
     padding: 10px;
-    height: 100%;
+    text-align: center;
+    /* テキスト中央揃え */
 }
 
 #head {
@@ -114,6 +130,8 @@ a:hover {
     overflow: hidden;
     margin: auto;
     padding: 10px;
+    text-align: center;
+    /* ヘッダー内のテキスト中央揃え */
 }
 
 #left {
@@ -133,7 +151,7 @@ a:hover {
 #foot {
     clear: both;
     background-color: #333333;
-    /* Dark gray background for footer */
+    /* フッターのダークグレー背景 */
     color: #ffffff;
     text-align: center;
     font-size: 0.8em;
