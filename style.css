@@ -3,7 +3,7 @@ body {
     height: 100%;
     margin: 0;
     font-family: "Canela", "Hiragino Mincho Pro", "MS PMincho";
-    background-color: #2C2C2C;
+    background-color: #000000;
     color: #ffffff;
     text-align: center;
 }
@@ -46,8 +46,14 @@ li {
 
 /*----- リンクのスタイル -----*/
 a:link {
-    color: #ffffff;
+    color: #00bfff;
+    /* 水色に変更 */
     text-decoration: none;
+}
+
+a:visited {
+    color: #00bfff;
+    /* 訪問済みリンクも水色に変更 */
 }
 
 a:hover {
